@@ -1,16 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>shadowdev08</title>
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Hello World</h1>
-    <h3>Welcome to CE Next Gen #3</h3>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos quo nulla amet impedit omnis laboriosam maxime? Maxime expedita, laborum aut eligendi repellat quo nesciunt quibusdam, quidem repellendus minima possimus vel!</p>
+
+    <video src="./source/background-video.webm" autoplay loop></video>
+
+    <nav>
+        <section style="display: flex;">
+            <img src="./source/icon/portfolio.png" alt="Portfolio Icon" height="40" style="margin-right: 10px;">
+            <a id="page_title"><u>My Portfolio</u></a>
+        </section>
+
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="reward.html">Reward</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <img src="source/my_profile.jpg" id="profile_image" class="profile_image">
+        <div class="detail">
+            <h4>My <font class="text-red"">Profile</font></h4>
+            <ul>
+                <li><b>Name :</b> Sanphet Rujiravanich</li>
+                <li><b>Nickname :</b> Tae</li>
+                <li><b>School :</b> Ratwinit Bangkaeo School</li>
+                <li><b>Province :</b> Samutprakan</li>
+            </ul>
+            <div class="social">
+                <a href="https://www.facebook.com/sanphet2008" target="_blank"><img src="./source/icon/facebook.png" alt="facebook"></a>
+                <a href="https://www.instagram.com/noname.mehappy/" target="_blank"><img src="./source/icon/instagram.png" alt="instagram"></a>
+                <a href="https://github.com/shadowdev08" target="_blank"><img src="./source/icon/github.png" alt="github"></a>
+            </div>
+        </div>
+    </div>
 
 
-    <script src="./script.js"></script>
+    <script src="./index.js"></script>
 </body>
+
 </html>
